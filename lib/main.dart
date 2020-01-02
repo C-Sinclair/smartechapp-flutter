@@ -68,7 +68,9 @@ class _SectionState extends State<Screen> {
             child: Image(image: AssetImage('assets/images/menu-white.png'))),
         Text('UTILITIES',
             style: TextStyle(
-                color: Colors.white, fontSize: 30, decoration: TectD)),
+                color: Colors.white,
+                fontSize: 30,
+                decoration: TextDecoration.none)),
         Container(
             width: 30,
             height: 30,
